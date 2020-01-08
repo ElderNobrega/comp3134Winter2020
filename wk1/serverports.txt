@@ -1,0 +1,25 @@
+• What is the definition of server port?
+Is a programming or software related docking point where information flows from a program on your computer or
+to your computer from the internet or from another computer in a network.
+A computer connects to the internet via port.
+
+• What is server port range?
+Ports are numbered for consistency and programming. Each port range is assigned specialized jobs or functions.
+Usually, all identical system services or functions use the same port numbers on the receiving servers.
+0 - 65536
+
+• How many bits does number above represent?
+17
+
+• State 10 common server ports
+SMTP - 25
+HTTP - 80
+HTTPS - 443
+FTP - 20, 21
+TELNET - 23
+IMAP - 143
+RDP - 3389
+SSH - 22
+DNS - 53
+DHCP - 67, 68
+POP3 - 110
