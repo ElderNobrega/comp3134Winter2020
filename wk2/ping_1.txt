@@ -1,0 +1,12 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# ping www.accenture.com -w 10
+PING d13iavm24b37u0.cloudfront.net (99.86.58.93) 56(84) bytes of data.
+64 bytes from server-99-86-58-93.yto50.r.cloudfront.net (99.86.58.93): icmp_seq=1 ttl=247 time=1.56 ms
+64 bytes from server-99-86-58-93.yto50.r.cloudfront.net (99.86.58.93): icmp_seq=2 ttl=247 time=0.620 ms
+64 bytes from server-99-86-58-93.yto50.r.cloudfront.net (99.86.58.93): icmp_seq=3 ttl=247 time=0.452 ms
+64 bytes from server-99-86-58-93.yto50.r.cloudfront.net (99.86.58.93): icmp_seq=4 ttl=247 time=0.489 ms
+64 bytes from server-99-86-58-93.yto50.r.cloudfront.net (99.86.58.93): icmp_seq=5 ttl=247 time=0.588 ms
+64 bytes from server-99-86-58-93.yto50.r.cloudfront.net (99.86.58.93): icmp_seq=6 ttl=247 time=0.694 ms
+64 bytes from server-99-86-58-93.yto50.r.cloudfront.net (99.86.58.93): icmp_seq=7 ttl=247 time=0.469 ms
+64 bytes from server-99-86-58-93.yto50.r.cloudfront.net (99.86.58.93): icmp_seq=8 ttl=247 time=0.641 ms
+64 bytes from server-99-86-58-93.yto50.r.cloudfront.net (99.86.58.93): icmp_seq=9 ttl=247 time=0.568 ms
+64 bytes from server-99-86-58-93.yto50.r.cloudfront.net (99.86.58.93): icmp_seq=10 ttl=247 time=0.987 ms

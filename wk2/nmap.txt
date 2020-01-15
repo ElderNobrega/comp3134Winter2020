@@ -1,0 +1,55 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap microsoft.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 18:28 UTC
+Nmap scan report for microsoft.com (104.215.148.63)
+Host is up (0.23s latency).
+Other addresses for microsoft.com (not scanned): 40.113.200.201 13.77.161.179 40.112.72.205 40.76.4.15
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 23.65 seconds
+
+***************************************
+
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 80 apple.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 18:30 UTC
+Nmap scan report for apple.com (17.142.160.59)
+Host is up (0.061s latency).
+Other addresses for apple.com (not scanned): 17.178.96.59 17.172.224.47
+rDNS record for 17.142.160.59: pv-apple-com.apple.com
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.50 seconds
+
+*********************************************
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 20-100 linkedin.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 18:32 UTC
+Nmap scan report for linkedin.com (108.174.10.10)
+Host is up (0.012s latency).
+Other addresses for linkedin.com (not scanned): 2620:109:c002::6cae:a0a
+rDNS record for 108.174.10.10: 108-174-10-10.fwd.linkedin.com
+Not shown: 80 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 2.42 seconds
+
+*********************************************
+
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -F python.org
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 18:33 UTC
+Nmap scan report for python.org (45.55.99.72)
+Host is up (0.015s latency).
+Not shown: 98 closed ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.77 seconds

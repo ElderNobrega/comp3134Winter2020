@@ -1,0 +1,75 @@
+1 ip lookup
+Checking Domain Name
+
+Domain Name: yamaha.com
+
+Top Level Domain: COM (Commercial TLD)
+
+DNS Lookup
+
+IP Address: 216.239.32.21
+
+Geolocation: US (United States), CA, California, 94608 Emeryville - Google Maps
+
+Reverse DNS: any-in-2015.1e100.net
+
+2 ip lookup
+Checking Domain Name
+
+Domain Name: georgebrown.ca
+
+Top Level Domain: CA (Canada)
+
+DNS Lookup
+
+IP Address: 198.96.86.202
+
+Geolocation: CA (Canada), ON, Ontario, M5T Toronto - Google Maps
+
+Reverse DNS: interviewfail.ca
+
+3 ip lookup
+Checking Domain Name
+
+Domain Name: toyota.jp
+
+Top Level Domain: JP (Japan)
+
+DNS Lookup
+
+IP Address: 23.217.56.137
+
+Geolocation: US (United States), MA, Massachusetts, 02142 Cambridge - Google Maps
+
+Reverse DNS: a23-217-56-137.deploy.static.akamaitechnologies.com
+
+
+4 ip lookup
+Checking Domain Name
+
+Domain Name: code.visualstudio.com
+
+Top Level Domain: COM (Commercial TLD)
+
+DNS Lookup
+
+IP Address: 23.101.203.117
+
+Geolocation: US (United States), CA, California, 95141 San Jose - Google Maps
+
+Reverse DNS entry: not found
+
+5 ip lookup
+Checking Domain Name
+
+Domain Name: accenture.com
+
+Top Level Domain: COM (Commercial TLD)
+
+DNS Lookup
+
+IP Address: 170.248.56.19
+
+Geolocation: US (United States), OH, Ohio, 45219 Cincinnati - Google Maps
+
+Reverse DNS: accenture.com

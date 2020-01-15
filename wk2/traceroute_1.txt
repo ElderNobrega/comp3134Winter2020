@@ -1,0 +1,11 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# traceroute dell.com
+traceroute to dell.com (143.166.135.105), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  10.78.4.4 (10.78.4.4)  1.176 ms 10.78.4.2 (10.78.4.2)  1.110 ms 10.78.4.4 (10.78.4.4)  1.106 ms
+ 3  138.197.249.82 (138.197.249.82)  1.395 ms 138.197.249.78 (138.197.249.78)  1.355 ms 138.197.249.86 (138.197.249.86)  1.469 ms
+ 4  ix-ae-4-0.tcore2.tnk-toronto.as6453.net (63.243.172.33)  1.611 ms ix-ae-12-0.tcore1.tnk-toronto.as6453.net (64.86.33.53)  2.147 ms  2.132 ms
+ 5  if-ae-8-2.tcore1.ct8-chicago.as6453.net (66.110.48.2)  11.595 ms  11.732 ms if-ae-2-2.tcore2.tnk-toronto.as6453.net (64.86.33.90)  11.664 ms
+ 6  206.82.141.134 (206.82.141.134)  11.317 ms  11.348 ms  10.397 ms
+ 7  * 206.82.141.134 (206.82.141.134)  10.412 ms *
+ 8  * * *
+ 9  dell-gw.customer.alter.net (63.65.121.6)  38.590 ms * *
