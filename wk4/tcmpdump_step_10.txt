@@ -1,0 +1,28 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 port 22
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+18:09:49.259573 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 3287085425:3287085533, ack 2995912057, win 501, length 108
+18:09:49.259657 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 108:144, ack 1, win 501, length 36
+18:09:49.259722 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 144:252, ack 1, win 501, length 108
+18:09:49.259770 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 252:288, ack 1, win 501, length 36
+18:09:49.261046 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 288:500, ack 1, win 501, length 212
+18:09:49.261112 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 500:536, ack 1, win 501, length 36
+18:09:49.261185 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 536:724, ack 1, win 501, length 188
+18:09:49.261235 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 724:760, ack 1, win 501, length 36
+18:09:49.261301 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 760:948, ack 1, win 501, length 188
+18:09:49.264009 IP toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 536, win 8390, length 0
+18:09:49.264061 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 948:2328, ack 1, win 501, length 1380
+18:09:49.264168 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 2328:2508, ack 1, win 501, length 180
+18:09:49.264224 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 2508:2544, ack 1, win 501, length 36
+18:09:49.264296 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 2544:2740, ack 1, win 501, length 196
+18:09:49.264360 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 2740:2776, ack 1, win 501, length 36
+18:09:49.264425 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 2776:2972, ack 1, win 501, length 196
+18:09:49.264473 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 2972:3008, ack 1, win 501, length 36
+18:09:49.264534 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 3008:3196, ack 1, win 501, length 188
+18:09:49.264582 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 3196:3232, ack 1, win 501, length 36
+18:09:49.264644 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 3232:3428, ack 1, win 501, length 196
+18:09:49.264755 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 3464:3652, ack 1, win 501, length 188
+18:09:49.264866 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 3688:3884, ack 1, win 501, length 196
+18:09:49.264972 IP toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 948, win 8394, length 0
+18:09:49.265095 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 4144:4340, ack 1, win 501, length 196
+18:09:49.265232 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 4376:4564, ack 1, win 501, length 188

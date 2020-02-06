@@ -1,0 +1,63 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 tcp
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+18:07:53.398584 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 3286479369:3286479477, ack 2995910809, win 501, length 108
+18:07:53.398677 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 108:144, ack 1, win 501, length 36
+18:07:53.398781 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 144:252, ack 1, win 501, length 108
+18:07:53.398944 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 252:288, ack 1, win 501, length 36
+18:07:53.400549 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 288:500, ack 1, win 501, length 212
+18:07:53.400618 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 500:536, ack 1, win 501, length 36
+18:07:53.400697 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 536:724, ack 1, win 501, length 188
+18:07:53.400752 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 724:760, ack 1, win 501, length 36
+18:07:53.400831 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 760:948, ack 1, win 501, length 188
+18:07:53.402943 IP toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 288, win 8389, length 0
+18:07:53.403000 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 948:2328, ack 1, win 501, length 1380
+18:07:53.403182 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 2328:2508, ack 1, win 501, length 180
+18:07:53.403301 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 2508:2544, ack 1, win 501, length 36
+18:07:53.403413 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 2544:2740, ack 1, win 501, length 196
+18:07:53.403479 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 2740:2776, ack 1, win 501, length 36
+18:07:53.403573 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 2776:2972, ack 1, win 501, length 196
+18:07:53.403645 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 2972:3008, ack 1, win 501, length 36
+18:07:53.403751 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 3008:3196, ack 1, win 501, length 188
+18:07:53.403856 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 3196:3232, ack 1, win 501, length 36
+18:07:53.403976 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 3232:3428, ack 1, win 501, length 196
+18:07:53.404625 IP toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 948, win 8394, length 0
+18:07:53.404667 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 3428:4376, ack 1, win 501, length 948
+18:07:53.404736 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 4376:4564, ack 1, win 501, length 188
+18:07:53.404827 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 4564:4600, ack 1, win 501, length 36
+18:07:53.404911 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 4600:4796, ack 1, win 501, length 196
+18:07:53.404966 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 4796:4832, ack 1, win 501, length 36
+18:07:53.405037 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 4832:5012, ack 1, win 501, length 180
+18:07:53.405198 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 5048:5244, ack 1, win 501, length 196
+18:07:53.405370 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 5280:5476, ack 1, win 501, length 196
+18:07:53.407001 IP toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 3428, win 8394, length 0
+18:07:53.407036 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 5476:6888, ack 1, win 501, length 1412
+18:07:53.407214 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 6888:7068, ack 1, win 501, length 180
+18:07:53.407344 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 7068:7104, ack 1, win 501, length 36
+18:07:53.407464 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 7104:7300, ack 1, win 501, length 196
+18:07:53.407532 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 7300:7336, ack 1, win 501, length 36
+18:07:53.407607 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 7336:7532, ack 1, win 501, length 196
+18:07:53.407716 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 7532:7568, ack 1, win 501, length 36
+18:07:53.407837 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 7568:7756, ack 1, win 501, length 188
+18:07:53.407925 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 7756:7792, ack 1, win 501, length 36
+18:07:53.408052 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 7792:7988, ack 1, win 501, length 196
+18:07:53.408214 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 8024:8212, ack 1, win 501, length 188
+18:07:53.408343 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 8248:8444, ack 1, win 501, length 196
+18:07:53.408469 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 8480:8668, ack 1, win 501, length 188
+18:07:53.408628 IP toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 5476, win 8394, length 0
+18:07:53.408832 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 8936:9124, ack 1, win 501, length 188
+18:07:53.409029 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 9160:9356, ack 1, win 501, length 196
+18:07:53.409198 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 9392:9588, ack 1, win 501, length 196
+18:07:53.409342 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 9588:9936, ack 1, win 501, length 348
+18:07:53.409501 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 9936:10748, ack 1, win 501, length 812
+18:07:53.409609 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 10748:10944, ack 1, win 501, length 196
+18:07:53.409755 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 10944:11140, ack 1, win 501, length 196
+18:07:53.409848 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 11140:11336, ack 1, win 501, length 196
+18:07:53.409930 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 11336:11532, ack 1, win 501, length 196
+18:07:53.410021 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 11532:11728, ack 1, win 501, length 196
+18:07:53.410140 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 11728:11924, ack 1, win 501, length 196
+18:07:53.410284 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 11924:12120, ack 1, win 501, length 196
+18:07:53.410443 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 12120:12316, ack 1, win 501, length 196
+18:07:53.410537 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 12316:12512, ack 1, win 501, length 196
+18:07:53.410648 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 12512:12708, ack 1, win 501, length 196
+18:07:53.410775 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 12708:12904, ack 1, win 501, length 196

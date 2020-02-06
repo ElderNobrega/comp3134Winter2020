@@ -1,0 +1,12 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+17:17:08.074109 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 3265601325:3265601433, ack 2995890349, win 501, length 108
+17:17:08.074196 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 108:144, ack 1, win 501, length 36
+17:17:08.074273 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 144:252, ack 1, win 501, length 108
+17:17:08.074338 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 252:288, ack 1, win 501, length 36
+17:17:08.075786 IP lamp-s-1vcpu-1gb-tor1-01.37523 > 67.207.67.2.domain: 16030+ [1au] PTR? 168.114.89.159.in-addr.arpa. (56)
+5 packets captured
+25 packets received by filter
+13 packets dropped by kernel
+root@lamp-s-1vcpu-1gb-tor1-01:~#

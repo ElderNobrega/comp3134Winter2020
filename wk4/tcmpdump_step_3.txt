@@ -1,0 +1,16 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -A -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+17:19:50.484737 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 3273327317:3273327425, ack 2995896413, win 501, length 108
+E...yE@.@....Yr.CG.     ...........]P.........*....'..D...t..xF.<pH.....a..|..%F6[.(.r8.]...    &L.>`.......|.#-$.h.T.7B..O.(Y...qg..   .h...8-..QE.v.p......
+17:19:50.484828 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 108:144, ack 1, win 501, length 36
+E..LyF@.@....Yr.CG.     .......A...]P........\.\.-D.@Z.2........K....9
+..y.1....
+17:19:50.484942 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 144:252, ack 1, win 501, length 108
+E...yG@.@....Yr.CG.     .......e...]P.......{q.i.y.7......SK<...q..^{......r...Q`.(......p..)..... +{..E9..-..+4..=...#D..0-.j....i..%#..h...
+...,......
+17:19:50.485004 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 252:288, ack 1, win 501, length 36
+E..LyH@.@....Yr.CG.     ...........]P........FB.1......@..D......+. ..2......OQ.
+17:19:50.486719 IP lamp-s-1vcpu-1gb-tor1-01.ssh > toroon0954w-lp130-06-67-71-177-9.dsl.bell.ca.56818: Flags [P.], seq 288:500, ack 1, win 501, length 212
+E...yI@.@..P.Yr.CG.     ...........]P....A...i..Dg..........|.. ..K|W<...4.M.d..V.Lt(w........p<..kq.D.Q...|0..B0....WZ.....~.3..U[W0.Y..8.*
+..^........|4.TWdO#sW.....C./.s...&&.&w46.....>p..P5G.^..2[].T`.{.Z4.....@u.b......@...HX..........3Z.j.-ych.LfwD..
