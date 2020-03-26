@@ -1,0 +1,5 @@
+hping3 -v -i flood -c 10000 -p 4347 
+ 
+hping3 --udp - v -i flood -c 9000 -p 4347
+
+hping3 -c --icmp-iplen 1 flood -c 11000 -p -d 75
